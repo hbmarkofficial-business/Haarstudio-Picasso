@@ -1,4 +1,23 @@
-{/* Contact Section */}
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import { AnimateOnScroll } from '@/components/AnimateOnScroll';
+import { 
+  MessageCircle, 
+  MapPin, 
+  Phone, 
+  Mail, 
+  Clock, 
+  Search, 
+  Calendar 
+} from 'lucide-react';
+import { Footer } from '@/components/Footer';
+
+const Contact = () => {
+  return (
+    <>
+      <main>
+        {/* Contact Section */}
         <section className="py-24 bg-charcoal">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
